@@ -17,13 +17,15 @@
 		<div class="nav-bar">
 			<div class="container">
 				<ul class="nav">
-					<li><a href="#">Nav Link 1</a></li>
+					<li><a href="#"><button onclick="">Clear</button></a></li>
 					<li><a href="#">Nav Link 2</a></li>
 					<li><a href="#">Nav Link 3</a></li>
 					<li><a href="#">Nav Link 4</a></li>
 					<li><a href="#">Nav Link 5</a></li>
 					<li><a href="#">Nav Link 6</a></li>
 					<li><a href="#">Nav Link 7</a></li>
+					<li><a href="#"><button onclick="taskbutton3()" id="buttontask3" >Button</button></a></li>
+
 					<!-- Button for Task 3 should be placed here -->
 					
 				</ul>
@@ -37,7 +39,7 @@
 
 					<!-- Paragraphs -->
 					<h3>Basic Directions</h3>
-					<p>This project is meant to assess your understanding of Javascript usage within a webpage.  There are five tasks that you must complete.  The tasks are functionality that will be added to this page.  Inside of the folder you found this html file, you will see a folder called "assets".  Within that, another folder called "javascript" has 5 files labeled task1.js to task5.js.  For each task, place your javascript code within the appropriate file.  The files are already linked to this page in the <b>head</b> of this document.  The instructions for each task are listed below.</p>
+					<p id="text">This project is meant to assess your understanding of Javascript usage within a webpage.  There are five tasks that you must complete.  The tasks are functionality that will be added to this page.  Inside of the folder you found this html file, you will see a folder called "assets".  Within that, another folder called "javascript" has 5 files labeled task1.js to task5.js.  For each task, place your javascript code within the appropriate file.  The files are already linked to this page in the <b>head</b> of this document.  The instructions for each task are listed below.</p>
 					<hr>
 
 					<h3>Tasks</h3>
@@ -67,11 +69,11 @@
 										
 					<h3>Task 2 - The Table</h3>
 					<!-- Buttons for this task should be entered before the table tag. -->
-					<button onclick="buttoncolor1()" style="background: firebrick" id="color1" >Color1</button>
-					<button onclick="buttoncolor2()" style="background: royalblue" id="color2" >Color2</button>
-					<button onclick="buttoncolor3()" style="background: blueviolet" id="color3" >Color3</button>
+					<button onclick="buttoncolor1()" style="background: firebrick" >Color1</button>
+					<button onclick="buttoncolor2()" style="background: royalblue" >Color2</button>
+					<button onclick="buttoncolor3()" style="background: blueviolet" >Color3</button>
 					
-					<table class="table table-striped">
+					<table class="table table-striped" id="the-table">
 						<thead>
 							<tr>
 								<th>#</th>

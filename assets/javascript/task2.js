@@ -1,13 +1,13 @@
 /* Put code for the task below */
 function buttoncolor1() {
-    var table = document.getElementById("color1");
+    document.getElementById("the-table");
 
 }
 function buttoncolor2() {
-    var table = document.getElementById("color2");
+    document.getElementById("the-table");
 
 }
 function buttoncolor3() {
-    var table = document.getElementById("color3");
+    document.getElementById("the-table");
 
 }

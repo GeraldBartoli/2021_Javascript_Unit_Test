@@ -1,7 +1,7 @@
 /* Put code for the task below */
 function buttoncolor1() {
-    document.getElementById("the-table");
-
+    var color1 = document.getElementsByClassName("table table-striped")
+    color1.body.style.backgroundColorColor = "red";
 }
 function buttoncolor2() {
     document.getElementById("the-table");
